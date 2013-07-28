@@ -79,7 +79,7 @@ namespace CruiseControl
             return cmds;
         }
 
-        // Do NOT modify or remove! This is where you will receive the new board status after each round
+        // Do NOT modify or remove! This is where you will receive the new board status after each round.
         public void GetBoardStatus(BoardStatus board)
         {
             _currentBoard = board;
